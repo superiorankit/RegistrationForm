@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="regCard">
+            <div class="imgBox">
+                <img src="./public/images/img.png" alt="" />
+            </div>
+            <div class="formBox">
+                <h1 class="regText">Registration</h1>
+                <form>
+                    <div class="formInnBox">
+                        <div class="inputBox">
+                            <label for="first">First Name:</label>
+                            <input type="text" id="first" placeholder="Enter your First Name" required />
+                        </div>
+                        <div class="inputBox">
+                            <label for="last">Last Name:</label>
+                            <input type="text" id="last" placeholder="Enter your Last Name" required />
+                        </div>
+                        <div class="inputBox">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" placeholder="Enter your Email" required />
+                        </div>
+                        <div class="inputBox">
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" placeholder="Enter your Phone Number" pattern="[0-9]{10}"
+                                required />
+                        </div>
+                        <div class="inputBox">
+                            <label for="country">Country:</label>
+                            <input type="text" id="country" placeholder="Enter your Country" required />
+                        </div>
+                        <div class="inputBox">
+                            <label for="city">City:</label>
+                            <input type="text" id="city" placeholder="Enter your City" required />
+                        </div>
+                        <div class="inputBox">
+                            <label for="pass">Password:</label>
+                            <input type="password" id="pass" placeholder="Enter your Password" required />
+                        </div>
+                        <div class="inputBox">
+                            <label for="cpass">Confirm Password:</label>
+                            <input type="password" id="cpass" placeholder="Confirm Password" required />
+                        </div>
+                        <div class="radioBox">
+                            <p for="">Gender:</p>
+                            <div class="radioInputBox">
+                                <input type="radio" id="male" name="gender" required />
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" required />
+                                <label for="female">Female</label>
+                                <input type="radio" id="other" name="gender" required />
+                                <label for="other">Other</label>
+                                <input type="radio" id="not" name="gender" required />
+                                <label for="not">Prefer not to say</label>
+                            </div>
+                        </div>
+                        <input class="submit" type="submit">
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
